@@ -1,0 +1,24 @@
+[23-Jul-2024 00:18:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: SELECT command denied to user 'jhonyeclasespiti_root'@'localhost' for table 'persona' in /home/jhonyeclasespiti/public_html/Class/Metodos.php:53
+Stack trace:
+#0 /home/jhonyeclasespiti/public_html/Class/Metodos.php(53): mysqli_query(Object(mysqli), 'SELECT p.id AS ...')
+#1 /home/jhonyeclasespiti/public_html/Actions/codeLogin.php(22): Metodos->IniciarSesion('correo@correo.c...', '12345678')
+#2 {main}
+  thrown in /home/jhonyeclasespiti/public_html/Class/Metodos.php on line 53
+[23-Jul-2024 00:18:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: SELECT command denied to user 'jhonyeclasespiti_root'@'localhost' for table 'persona' in /home/jhonyeclasespiti/public_html/Class/Metodos.php:53
+Stack trace:
+#0 /home/jhonyeclasespiti/public_html/Class/Metodos.php(53): mysqli_query(Object(mysqli), 'SELECT p.id AS ...')
+#1 /home/jhonyeclasespiti/public_html/Actions/codeLogin.php(22): Metodos->IniciarSesion('correo@correo.c...', '12345678')
+#2 {main}
+  thrown in /home/jhonyeclasespiti/public_html/Class/Metodos.php on line 53
+[23-Jul-2024 00:19:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: SELECT command denied to user 'jhonyeclasespiti_root'@'localhost' for table 'persona' in /home/jhonyeclasespiti/public_html/Class/Metodos.php:53
+Stack trace:
+#0 /home/jhonyeclasespiti/public_html/Class/Metodos.php(53): mysqli_query(Object(mysqli), 'SELECT p.id AS ...')
+#1 /home/jhonyeclasespiti/public_html/Actions/codeLogin.php(22): Metodos->IniciarSesion('correo@correo.c...', '12345678')
+#2 {main}
+  thrown in /home/jhonyeclasespiti/public_html/Class/Metodos.php on line 53
+[23-Jul-2024 00:28:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`jhonyeclasespiti_choki`.`persona`, CONSTRAINT `FK_persona_roles` FOREIGN KEY (`rol`) REFERENCES `roles` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/jhonyeclasespiti/public_html/Class/Metodos.php:59
+Stack trace:
+#0 /home/jhonyeclasespiti/public_html/Class/Metodos.php(59): mysqli_query(Object(mysqli), 'INSERT INTO per...')
+#1 /home/jhonyeclasespiti/public_html/Actions/codeSingup.php(28): Metodos->Registar('Yesid', 'Mart\xC3\xADnez', 'martinezyesid70...', '12345678')
+#2 {main}
+  thrown in /home/jhonyeclasespiti/public_html/Class/Metodos.php on line 59
